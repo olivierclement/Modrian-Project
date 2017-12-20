@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+   
+body, html {
+    background-color: #f6f6f6;
+}
+
+#canvas {
+    background-color: #fff4db;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 1px #8d8d8d;
+}
+
+
+#toprow {
+    height: 290px;
+}
+
+#middlerow {
+    height: 10px;
+}
+
+#bottomrow {
+    height: 100px;
+}
+
+
+#lefttopcolumn {
+    width: 100px;
+}
+
+#bottomrightcolumn{
+    width: 20px;
+}
+
+#bigbox {
+    height: 290px;
+    width: 290px;
+}
+
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+#smallbox {
+    width: 100px;
+    height: 100px;
+}
+
+#widebox {
+    width: 260px;
+    height: 100px;
+}
+
+#tinybox {
+    width: 20px;
+    height: 45px;
+}
+
+#divider1 {
+    height: 290px;
+    width: 10px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    height: 100px;
+    width: 10px;
+}
+
+#divider4 {
+    height: 10px;
+    width: 20px;
+}
+
+
+.red {
+    background-color: #cc3333;   
+}
+
+.blue {
+    background-color: #2f7fd8;   
+}
+
+.yellow {
+    background-color: #feda09;   
+}
+
+.black {
+    background-color: #393939;   
+}
+
+
+.right {
+    float: right;   
+}
+
+</style>
+
+
+</head>
+
+<body>
+    <div id="canvas">
+        <div id="toprow">
+            <div id="bigbox" class="red right"></div>
+            <div id="divider1" class="black right"></div>
+            <div id="topleftcolumn" class="right">
+                <div id="mediumbox"></div>
+                <div id="divider2" class="black"></div>
+                <div id="mediumbox"></div>
+            </div>
+
+        </div>
+        <div id="middlerow" class="black"></div>
+        <div id="bottomrow">
+            <div id="bottomrightcolumn" class="right">
+                <div id="tinybox"></div>
+                <div id="divider4" class="black"></div>
+                <div id="tinybox" class="yellow"></div>
+            </div>
+            <div id="divider3" class="black right"> </div>
+            <div id="widebox" class="right"> </div>
+            <div id="divider3" class="black right"> </div>
+            <div id="smallbox" class="blue right"> </div>
+        </div>
+    </div>
+   
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
